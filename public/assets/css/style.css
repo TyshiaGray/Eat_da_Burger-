@@ -2,6 +2,7 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  max-width: 20%;
 }
 
 .label {
@@ -16,4 +17,16 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+html, body{
+  min-height: 100vh;
+}
+body {
+  background-image: url(/assets/images/eatTheBurger.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+h1{
+  font-size: 4rem!important;
 }
